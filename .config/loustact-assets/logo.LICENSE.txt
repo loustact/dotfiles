@@ -1,0 +1,7 @@
+.config/loustact-assets/logo.png
+
+Copyright (c) 2026 Loustro
+
+This image, as a compiled design, is protected under All Rights Reserved. You may not copy, redistribute, or reuse this image file in forks or derivative works without permission.
+
+This restriction applies to the final exported image only and does not imply ownership of third-party design elements. This restriction is only applied to the specific file, not to the entire repository.
