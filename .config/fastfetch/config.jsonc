@@ -3,7 +3,7 @@
     "logo": {
 	// "type": "auto"
 	"type": "iterm",
-        "source": "$HOME/.config/fastfetch/logo.png",
+        "source": "$HOME/.config/loustact-assets/logo.png",
         "width": 33,
         "height": 15,
     },

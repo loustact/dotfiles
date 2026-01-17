@@ -119,19 +119,9 @@ alias ls='eza --icons -a --group-directories-first'
 alias pacman='sudo pacman'
 alias srb='systemctl soft-reboot'
 
-### PDF Compressor (compress_pdf)
-compress_pdf() {
-for file in *.pdf ; do
-  filename=$(basename -a -s .pdf "${file}")
-  ps2pdf -dNumRenderingThreads=4 "${file}" - | \
-  gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/ebook \
--dNOPAUSE -dQUIET -dBATCH -sOutputFile="${filename}_compressed_flatten.pdf" -
-done
-}
-
 # Stuff at startup
 fastfetch
-eval "$(oh-my-posh init zsh --config $HOME/Stuff/Themes/oh-my-posh/bubbles-gruvbox.omp.json)" # oh-my-posh theme
+eval "$(oh-my-posh init zsh --config $HOME/.config/fastfetch/oh-my-posh/bubbles-gruvbox.omp.json)" # oh-my-posh theme
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh # syntax highlighting
 autoload -Uz compinit # autocompletion 
 compinit
