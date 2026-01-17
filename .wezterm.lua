@@ -10,9 +10,6 @@ config.hide_tab_bar_if_only_one_tab = true
 -- Disable Close Confirmation
 config.window_close_confirmation = 'NeverPrompt'
 
--- Set Window Decorations (Disables title bar but keeps resizable border)
--- config.window_decorations = 'RESIZE'
-
 -- Cursor Style
 config.default_cursor_style = 'BlinkingBar'
 
