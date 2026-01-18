@@ -113,7 +113,7 @@ alias srb='systemctl soft-reboot'
 
 # Stuff at startup
 fastfetch
-eval "$(oh-my-posh init zsh --config $HOME/.config/fastfetch/oh-my-posh/bubbles-gruvbox.omp.json)" # oh-my-posh theme
+eval "$(oh-my-posh init zsh --config $HOME/.config/fastfetch/bubbles-gruvbox.omp.json)" # oh-my-posh theme
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh # syntax highlighting
 autoload -Uz compinit # autocompletion 
 compinit
