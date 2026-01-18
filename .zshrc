@@ -105,14 +105,6 @@ alias ohmyzsh="nano ~/.oh-my-zsh"
 
 #### -- Other Personal Stuff -- ####
 
-## Shizuku starter when connected through USB ADB
-alias shizuku-start='"./Stuff/More Extra Stuff/shizuku-start.sh"'
-
-## Run timers (mist still doesn't work. Idfk if the backtrace is useful I can't read shit)
-alias shizuku-start='"./Stuff/More Extra Stuff/shizuku-start.sh"'
-alias livesplit='"./Stuff/More Extra Stuff/LiveSplit/livesplit-one"'
-alias mist='env RUST_BACKTRACE=full "./Stuff/More Extra Stuff/mist/mist"'
-
 ## Misc shit
 alias cow='fortune | cowsay'
 alias ls='eza --icons -a --group-directories-first'
