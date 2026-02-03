@@ -98,22 +98,7 @@ source $ZSH/oh-my-zsh.sh
 # - $ZSH_CUSTOM/aliases.zsh
 # - $ZSH_CUSTOM/macos.zsh
 # For a full list of active aliases, run `alias`.
-#
-# Example aliases (will be used actually, very useful)
-alias zshconfig="nano ~/.zshrc"
-alias ohmyzsh="nano ~/.oh-my-zsh"
 
-#### -- Other Personal Stuff -- ####
-
-## Misc shit
-alias cow='fortune | cowsay'
-alias ls='eza --icons -a --group-directories-first'
-alias pacman='sudo pacman'
-alias srb='systemctl soft-reboot'
-
-# Stuff at startup
-fastfetch
-eval "$(oh-my-posh init zsh --config $HOME/.config/fastfetch/bubbles-gruvbox.omp.json)" # oh-my-posh theme
-source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh # syntax highlighting
-autoload -Uz compinit # autocompletion 
-compinit
+# Startup and Alias Import
+source $ZSH_CUSTOM/plugins/Prerequisites/startup.zsh
+source $ZSH_CUSTOM/plugins/Prerequisites/aliases.zsh
