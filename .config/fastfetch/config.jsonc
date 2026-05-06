@@ -72,14 +72,25 @@
             "type": "packages",
             "keyColor": "cyan"
         },
-        {
-            "type": "uptime",
-            "keyColor": "cyan"
-        },
         // "media",
         {
             "type": "wifi",
             "format": "{ssid}"
+        },
+        {
+            "type": "custom", // StatusStart
+            "format": "├{$1} {#1} Status Information {#} {$1}┤"
+        },
+        {
+            "key": "os-age",
+            "type": "disk",
+            "keyColor": "cyan",
+            "folders": "/",
+            "format": "{days} days old"
+        },
+        {
+            "type": "uptime",
+            "keyColor": "cyan"
         },
         {
             "type": "custom", // InformationEnd
