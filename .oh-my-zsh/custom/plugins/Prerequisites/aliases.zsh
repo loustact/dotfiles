@@ -1,11 +1,10 @@
 # OMZ Commands
-alias zshconfig="nano $HOME/.zshrc"
-alias ohmyzsh="nano $HOME/.oh-my-zsh"
-alias zshstart="nano $ZSH_CUSTOM/plugins/Prerequisites/startup.zsh"
-alias zshalias="nano $ZSH_CUSTOM/plugins/Prerequisites/aliases.zsh"
+alias zshconfig="$EDITOR $HOME/.zshrc"
+alias ohmyzsh="$EDITOR $HOME/.oh-my-zsh"
+alias zshstart="$EDITOR $ZSH_CUSTOM/plugins/Prerequisites/startup.zsh"
+alias zshalias="$EDITOR $ZSH_CUSTOM/plugins/Prerequisites/aliases.zsh"
 
-## Run timers (mist still doesn't work. Idfk if the backtrace is useful I can't read shit)
-# alias mist='"$HOME/Stuff/More Extra Stuff/mist/mist"' # mist
+## Run timers
 alias livesplit='"$HOME/Stuff/More Extra Stuff/LiveSplit/livesplit-one"' # livesplit-one
 
 ## Misc shit
